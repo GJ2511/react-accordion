@@ -1,0 +1,77 @@
+.clearfix {
+  	overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.show {
+	height: auto;
+	transition: height 0.5s ease-in;
+	padding: 5px;
+}
+			
+.hide {
+	height: 0;
+	transition: height 0.5s ease-out;
+	padding: 0;
+}
+
+/* =============================
+	Accordion Container        =
+================================ */
+.accordion-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+/* =============================
+	Accordion Children        =
+================================ */
+.accordion-children {
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* =============================
+	Accordion Children Title   =
+================================ */
+.accordion-children-title {
+  padding: 10px;
+  border: 1px solid #f0f5f7;
+  cursor: pointer;
+  color: #333333;
+  background-color: #f4eaea;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.accordion-children-title:hover {
+  background-color: #d7b7b7;
+}
+
+.accordion-children-title h2 {
+  float: left;
+  margin: 0 10px;
+}
+
+.accordion-children-title span {
+  float: right;
+  margin-right: 10px;
+}
+
+/* =============================
+	Accordion Children Content =
+================================ */
+.accordion-children-content {
+  border: 1px solid #f0f5f7;
+  color: #333333;
+  border-radius: 5px;
+}
