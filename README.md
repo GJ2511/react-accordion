@@ -10,7 +10,7 @@ Accordion component for React.
 ## Usage
 ```js
 import React from 'react';
-import ReactAccordion from 'react-accordion';
+import ReactAccordion from 'react-accordion-new';
 
 class Example extends React.Component {
     constructor(props) {
