@@ -5,7 +5,7 @@ Accordion component for React.
 ![Sample Picture](Accordion.JPG)
 
 ## Install module
-    > npm i react-accordion
+    > npm i react-accordion-new
 
 ## Usage
 ```js
